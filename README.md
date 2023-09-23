@@ -32,8 +32,8 @@ void setup() {
 
 void loop() {
 
-  int read0 = sensor->read(0); // Read the first sensor rod pair.
-  int read1 = sensor->read(1); // Read the second sensor rod pair.
+  int read0 = sensor->Read(0); // Read the first sensor rod pair.
+  int read1 = sensor->Read(1); // Read the second sensor rod pair.
 
   Serial.print("Measurement for sensor 0: "); Serial.print(read0);
   Serial.print("| Measurement for sensor 1: "); Serial.println(read1);
